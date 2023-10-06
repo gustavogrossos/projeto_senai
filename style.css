@@ -14,7 +14,8 @@
 body{
     width: 100vw;
     height: 100vh;
-    background: #DBD8E3;
+    background: #ffffff;
+    ;
 }
 
 .top{
@@ -46,7 +47,7 @@ body{
     color: #2A2438;
     font-weight: 400;
     font-size: 16px;
-    padding: 0px 90px;
+    padding: 0px 30px;
 }
 
 .cadastro{
@@ -72,16 +73,16 @@ body{
 }
 
 .nav-links{
-    border: solid red 2px;
     height: 150px; width: 600px;
     display: flex;
     padding: 0px 40px;
     position: relative; bottom: 500px; left: 400px;
     text-decoration: none;
+    text-align: center;
+    background-color: rgb(246, 246, 246);
 }
 
 .item-menu{
-    border: 2px solid red;
     height: 150px; 
     width: 300px;
     display: flex;
@@ -104,10 +105,27 @@ body{
 }
 
 .text-list-home{
-    position: relative; top: 40px;
+    position: relative; top: 40px; right: 10px;
     display: flex;
-    align-items: center;
     font-size: 13px;
     width: 5px;
     height: 50px;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.usuario{
+    text-decoration: none;
+    color: #2A2438;
+    font-size: 20px;
+}
+
+.text-list-dashboard{
+    position: relative; top: 40px; right: 10px;
+    display: flex;
+    font-size: 13px;
+    width: 5px;
+    height: 50px;
+    cursor: pointer;
+    font-weight: 700;
 }
