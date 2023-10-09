@@ -8,12 +8,13 @@
     <link rel="shortcut icon" href="assets/icons8-semi-trailer-truck-16.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    
 </head>
 
 <body>
     <header>
         <div class="top">
-            <img src="assets/1967684.png" alt="">
+            <img src="assets/1967895.png" alt="">
             <nav>
                 <ul>
                     <li><a href="#">Sobre nós</a></li>
@@ -23,6 +24,10 @@
                 </ul>
             </nav>
 
+            <button class="login">
+                Log in
+            </button>
+
             <button class="cadastro">
                 Cadastre-se
             </button>
@@ -31,9 +36,10 @@
 
     <main>
         <div class="main">
-            <img src="assets/Empty street-amico.svg" alt="">
+            <img src="assets/pexels-photo-11213185.jpeg" alt="">
 
 
+             
             <ul class="nav-links">
 
                 <li class="item-menu">
@@ -43,6 +49,10 @@
                             Cadastre sua empresa
                         </span>
                     </a>
+                    <div id="conteudo">
+
+
+                    </div>
                 </li>
 
 
@@ -53,10 +63,38 @@
                             Utilize nossos serviços
                         </span>
                     </a>
+                    <div id="conteudo">
+
+
+                    </div>
                 </li>
-        </div>
-    </main>
+           
 
-</body>
 
-</html>
+
+
+                <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+                    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous">
+                </script>
+
+                <script>
+
+                    $(".empresa").click(function () {
+
+                        $("#conteudo").load("pages/empresa.html");
+
+                    });
+
+                    $(".usuario").click(function () {
+
+                        $("#conteudo").load("pages/usuario.html");
+
+                    });
+                </script>
+            </ul>
+        </div >
+    </main >
+
+</body >
+
+</html >

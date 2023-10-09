@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+
+#conteudo{
+    height: 100%; width: 100%;
+    position: absolute; top: 80px; left: 0px;
+    text-align: justify;
+}
+
+#conteudo > h1{
+    height: 100px; width: 100%;
+    padding: 40px 120px 100px 57px;
+    line-height: 80px;
+    font-size: 46px;
+    font-weight: 700;
+}
+
+#conteudo > p{
+    text-align: justify;
+    position: absolute; top: 230px; left: 0px;
+    padding: 0px 0px 0px 57px;
+    font-weight: 400;
+    font-size: 22px;
+}
+
+.btn-cadastro{
+    position: absolute; top: 380px; left: 50px;
+    width: 280px; height: 70px;
+    font-size: 23px;
+    font-weight: 500;
+    background-color: #000000;
+    color: white;
+    border-radius: 10px;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+}
