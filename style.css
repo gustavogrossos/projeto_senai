@@ -81,7 +81,7 @@ body{
 }
 
 .main{
-    width: 100vw; height: 900px;
+    width: 100vw; height: 885px;
 }
 
 .main > img{
@@ -149,3 +149,23 @@ body{
     font-weight: 600;
 }
 
+.conteudo{
+    border: solid red 2px;
+    background-color: rgb(255, 255, 255);
+    width: 100vw; height: 100vh;
+}
+
+#street{
+    width: 500px; height: 500px;
+    position: relative; left: 300px;    
+}
+
+.conteudo > h1{
+    border: solid red 2px;
+    width: 600px; height: 450px;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 64px;
+    display: block;
+    text-align: end;
+}
