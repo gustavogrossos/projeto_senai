@@ -13,7 +13,7 @@ body{
     width: 100vw;
     height: 100vh;
     background: #ffffff;
-    ;
+    overflow-x: hidden;
 }
 
 .top{
@@ -92,7 +92,7 @@ body{
     height: 700px; width: 700px;
     display: flex;
     padding: 0px 0px;
-    position: relative; bottom: 800px; left: 250px;
+    position: absolute; bottom: 150px; left: 250px;
     text-decoration: none;
     text-align: center;
     background-color: white;
@@ -122,7 +122,7 @@ body{
     height: 100%; width: 100%;
 }
 
-.text-list-home{
+.titulo-container{
     position: relative; top: 30px; left: 135px;
     display: flex;
     font-size: 19px;
@@ -139,7 +139,7 @@ body{
     height: 100%; width: 100%;
 }
 
-.text-list-dashboard{
+.titulo-container{
     position: relative; top: 30px; left: 135px;
     display: flex;
     font-size: 19px;
@@ -168,4 +168,12 @@ body{
     line-height: 64px;
     display: block;
     text-align: end;
+}
+
+.barra{
+
+    height: 3px;
+    background-color: black; /* Cor da barra */
+    width: 0; /*Inicialmente sem largura */
+    transition: width 0.3s ease-in-out; /*Adiciona uma transição suave */
 }

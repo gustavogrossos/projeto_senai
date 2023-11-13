@@ -8,7 +8,19 @@
     <link rel="shortcut icon" href="assets/icons8-semi-trailer-truck-16.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-    
+    <script>
+        function moverBarra(elemento) {
+            // Desmarca todas as barras
+            var todasBarras = document.querySelectorAll('.barra');
+            todasBarras.forEach(function(barra) {
+                barra.style.width = '0';
+            });
+
+            // Marca apenas a barra do elemento clicado
+            var barra = elemento.nextElementSibling; // Pega o elemento seguinte (a barra)
+            barra.style.width = elemento.offsetWidth + 'px';
+        }
+    </script>
 </head>
 
 <body>
@@ -45,8 +57,9 @@
                 <li class="item-menu">
                     <a href="#" class="empresa">
                         <i class="bi bi-buildings"></i>
-                        <span class="text-list-home">
-                            Cadastre sua empresa
+                        <span class="titulo-container">
+                            <h4 onclick="moverBarra(this)">Cadastre sua empresa</h4>
+                            <div class="barra"> </div>
                         </span>
                     </a>
                     <div id="conteudo">
@@ -59,9 +72,9 @@
                 <li class="item-menu">
                     <a href="#" class="usuario">
                         <i class="bi bi-truck"></i>
-                        <span class="text-list-dashboard">
-                            Utilize nossos serviços
-                        </span>
+                        <span class="titulo-container">
+                            <h4 onclick="moverBarra(this)">Utilize nossos serviços</h4>
+                            <div class="barra"> </div>
                     </a>
                     <div id="conteudo">
 
