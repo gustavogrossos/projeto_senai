@@ -102,6 +102,7 @@ form {
     font-size: 16px;
     font-weight: 700;
     font-style: italic;
+    cursor: pointer;
 }
 
 #bottom button:hover {
