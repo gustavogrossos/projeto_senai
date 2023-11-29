@@ -8,7 +8,6 @@
     <link rel="shortcut icon" href="assets/icons8-semi-trailer-truck-16.png" type="image/x-icon">
     <link rel="stylesheet" href="CSS/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-
 </head>
 
 <body>
@@ -17,18 +16,19 @@
             <img src="assets/1967895.png" alt="">
             <nav>
                 <ul>
-                    <li><a href="#">Sobre nós</a></li>
-                    <li><a href="#">Como se tornar um filiado</a></li>
-                    <li><a href="#">Atuação</a></li>
-                    <li><a href="#">Ajuda</a></li>
+                    <li><a href="#main-mid">Como se tornar um filiado</a></li>
+                    <li><a href="#main-mid-2">Sobre nós</a></li>
+                    <li><a href="#main-mid-3">Atuação</a></li>
+                    <li><a href="#footer">Ajuda</a></li>
                 </ul>
             </nav>
 
-            <form action="pages/Login.html">
+            <form action="pages/login.html">
                 <button class="login">
                     Log in
                 </button>
             </form>
+
 
             <button class="cadastro">
                 Cadastre-se
@@ -38,63 +38,181 @@
 
     <main>
         <div class="main">
-            <img src="assets/pexels-photo-11213185.jpeg" alt="">
+            <div class="main-top">
+                <img src="assets/pexels-photo-11213185.jpeg" alt="">
 
 
 
-            <ul class="nav-links">
+                <ul class="nav-links">
 
-                <li class="item-menu">
-                    <a href="#" class="empresa">
-                        <i class="bi bi-buildings"></i>
-                        <span class="text-list-home">
-                            Cadastre sua empresa
-                        </span>
-                    </a>
-                    <div id="conteudo">
-
-
-                    </div>
-                </li>
+                    <li class="item-menu">
+                        <a href="#" class="empresa">
+                            <i class="bi bi-buildings"></i>
+                            <span class="titulo-container">
+                                <h4 onclick="moverBarra(this)">Cadastre sua empresa</h4>
+                                <div class="barra"> </div>
+                            </span>
+                        </a>
+                        <div id="conteudo">
 
 
-                <li class="item-menu">
-                    <a href="#" class="usuario">
-                        <i class="bi bi-truck"></i>
-                        <span class="text-list-dashboard">
-                            Utilize nossos serviços
-                        </span>
-                    </a>
-                    <div id="conteudo">
+                        </div>
+                    </li>
 
 
-                    </div>
-                </li>
+                    <li class="item-menu">
+                        <a href="#" class="usuario">
+                            <i class="bi bi-truck"></i>
+                            <span class="titulo-container">
+                                <h4 onclick="moverBarra(this)">Utilize nossos serviços</h4>
+                                <div class="barra"> </div>
+                        </a>
+                        <div id="conteudo">
+
+
+                        </div>
+                    </li>
 
 
 
 
 
-                <script src="https://code.jquery.com/jquery-3.7.1.min.js"
-                    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous">
+                    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+                        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous">
+                        </script>
+
+                    <script>
+
+                        $(".empresa").click(function () {
+
+                            $("#conteudo").load("pages/empresa.html");
+
+                        });
+
+                        $(".usuario").click(function () {
+
+                            $("#conteudo").load("pages/usuario.html");
+
+                        });
+
+                        function moverBarra(elemento) {
+                            // Desmarca todas as barras
+                            var todasBarras = document.querySelectorAll('.barra');
+                            todasBarras.forEach(function (barra) {
+                                barra.style.width = '0';
+                            });
+
+                            // Marca apenas a barra do elemento clicado
+                            var barra = elemento.nextElementSibling; // Pega o elemento seguinte (a barra)
+                            barra.style.width = elemento.offsetWidth + 'px';
+                        }
                     </script>
+                </ul>
+            </div>
 
-                <script>
+            <div class="main-mid" id="main-mid">
+                <img src="assets/cidade.png" alt="">
+                <div class="container">
+                    <h1>Seja um Afiliado: Junte-se à Nossa Rede de Reboque Veicular.</h1>
+                    <p>Você tem paixão por serviços de assistência veicular e deseja expandir suas oportunidades de
+                        negócios? Se tornar um afiliado da Sutri é a escolha certa para você! Nossa empresa está
+                        comprometida em oferecer serviços de reboque excepcionais, e estamos procurando parceiros
+                        dedicados que compartilhem nossa visão e valores.</p>
+                    <form action="pages/afiliado.html">
+                        <button class="container-button">
+                            Começar
+                        </button>
+                    </form>
+                </div>
+            </div>
 
-                    $(".empresa").click(function () {
+            <div class="main-mid-2" id="main-mid-2">
+                <div class="mid-2-container">
+                    <h1>Sutri - Sua Parceira Confiável em Serviços de Reboque Veicular</h1>
+                    <p>Na Sutri, acreditamos que cada quilômetro percorrido deve ser tranquilo e livre de
+                        preocupações. Somos uma empresa dedicada a proporcionar soluções de reboque veicular
+                        excepcionais,
+                        com um compromisso inabalável com a satisfação do cliente e a excelência operacional.</p>
+                    <a href="pages/sobre-nos.html">Saiba mais <img src="assets/arrow-right-square-fill.svg" alt=""> </a>
+                </div>
+            </div>
 
-                        $("#conteudo").load("pages/empresa.html");
+            <div class="main-mid-3" id="main-mid-3">
+                <div class="mid-3-container">
+                    <div class="eficiencia">
+                        <img src="assets/man-talking-on-the-phone-1582238_640.jpg" alt="">
+                        <h1>A eficiência é nossa prioridade</h1>
+                        <p>A Sutri destaca-se como uma referência líder no setor de serviços de reboque
+                            veicular, oferecendo uma gama abrangente de soluções para atender às necessidades dos
+                            motoristas
+                            em situações desafiadoras. Nossa atuação é pautada pela eficiência operacional,
+                            profissionalismo
+                            e compromisso inabalável com a satisfação do cliente.</p>
+                        <a href="#">Leia sobre nossa política</a>
+                        <div>
 
-                    });
+                            <div class="caminhoes">
+                                <img src="assets/truck-3910170_640 (1).jpg" alt="">
+                                <h1> Prontos para atender às suas necessidades.</h1>
+                                <p>A Sutri possui uma frota moderna e diversificada de caminhões de
+                                    reboque, equipados com tecnologia de ponta. Desde veículos leves até pesados, nossa
+                                    frota está à disposição do cliente 24/7, pronta para proporcionar soluções
+                                    confiáveis e eficientes em qualquer situação. Com nossa frota, garantimos que cada
+                                    chamada seja atendida com profissionalismo e rapidez, proporcionando tranquilidade
+                                    em cada quilômetro percorrido.</p>
+                                <a href="pages/atuacao.html">Saiba como atuamos</a>
+                            </div>
 
-                    $(".usuario").click(function () {
+                        </div>
+                    </div>
 
-                        $("#conteudo").load("pages/usuario.html");
 
-                    });
-                </script>
-            </ul>
-        </div>
+                </div>
+
+            </div>
+
+            <div class="footer" id="footer">
+                <div class="empresa-2">
+                    <h1>Empresa</h1>
+                    <a href="#">Quem somos?</a> <br>
+                    <a href="#">O que oferecemos</a> <br>
+                    <a href="#">Investidores</a> <br>
+                    <a href="#">Blog</a> <br>
+                    <a href="#">Carreiras</a>
+                </div>
+
+                <div class="produtos">
+                    <h1>Produtos</h1>
+                    <a href="#">Filiar-se</a> <br>
+                    <a href="#">Sutri para empresas</a>
+                </div>
+
+                <div class="cidadania">
+                    <h1>Cidadania</h1>
+                    <a href="#">Segurança</a> <br>
+                    <a href="#">Diversidade e inclusão</a>
+                </div>
+
+                <div class="contato">
+                    <h1>Contato</h1>
+                    <a href="#">SAQ</a> <br>
+                    <a href="#">Fale conosco</a>
+                </div>
+
+
+                <div class="redes">
+                    <i class="bii bi-instagram"></i>
+                    <i class="bl bi-linkedin"></i>
+                    <i class="bf bi-facebook"></i>
+                    <i class="bt bi-twitter"></i>
+                </div>
+
+                <div class="barra">
+                    <p> Sutri </p>
+                </div>
+            </div>
+
+
     </main>
 
 </body>
