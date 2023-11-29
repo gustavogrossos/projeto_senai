@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', roboto, sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+#tittle{
+    border: solid black;
+    width: 100vw;
+    height: 60px;
+    background-color: black;
+    color: white;
+}
+
+#tittle h2{
+    margin-left: 50px;
+    margin-top: 12px;
+    font-size: 28px;
+    font-weight: 500;
+    font-style: italic;
+    
+}
+
+
+ 
+
+.background{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./assets/pexels-pixabay-366283.jpg');
+    background-position: center;
+    background-size: cover;    
+}
+
+.nav a:hover {
+    border-bottom: 4px solid #fff;
+    transition: .5s;    
+}
+
+
+.background {
+    width: 100%;
+    height: 100vh;
+    background-image: url('./assets/pexels-pixabay-366283.jpg');
+    background-position: center;
+    background-size: cover;
+    filter: blur(5px);    
+}
+.home {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 75%;
+    height: 75%;
+    transform: translate(-50%, -50%);
+    background-image: url('./assets/pexels-pixabay-366283.jpg');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    margin-top: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    border: none;    
+}
+
+
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    padding: 100 0;    
+}
+
+.content a {
+    position: relative;
+    text-decoration: none;
+    color: #fff;
+    font-size: 3em;
+    font-weight: 700;
+    top: -40px;
+    left: 80px;     
+}
+
+.content h2 {
+    margin-top: 200px;
+    font-size: 3.5em;
+    text-align: center;
+    color: #fff;
+    letter-spacing: 10px;     
+}
+
+.content h3 {
+    margin-top: 20px;
+    font-size: 2em;
+    text-align: center;
+    color: #fff;
+}
+
+.content pre{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 1em;
+    color: #fff;   
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    
+}
+
+.content .icon i {
+    margin-left: 20px;
+    color: #fff;
+    
+}
+
+.login {
+    margin-top: 90px;
+    height: 620px;
+    width: 450px;    
+    position: relative;
+    padding: 200px 30px;    
+    backdrop-filter: blur(2px);
+    border: solid white 1px;
+    border-radius: 10px;
+}
+
+.login h2 {
+    font-size: 2em;
+    text-align: center;
+    margin-top: -180px;
+    color: #fff; 
+    
+   
+}
+
+
+
+::placeholder {
+    color: #fff;
+    font-size: 18px;    
+}
+
+.login .input {
+    margin-top: 30px;
+    position: relative;
+    width: 100%;
+    height: 30px;
+    margin-bottom: 40px;    
+}
+.login .input .input1{
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #fff;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    
+}
+::placeholder{
+    color: #fff;
+    font-size: 18px;
+}
+.login .input i{
+    position: relative;
+    right: -370px;
+    bottom: 27px;
+    color: #fff;
+}
+.check {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    color: #fff;
+    font-size: 12px;
+    
+}
+
+.check a {
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+.check a:hover {
+    text-decoration: underline;
+}
+
+.login .button {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 15px;
+}
+
+button {
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 7px;
+    color: #fff;
+    cursor: pointer;      
+}
+
+#button button:hover {
+    transition: background 0.5s;
+    background: darkslategray;
+}
+#button button:not(:hover){
+    transition: background 1s;
+    background: black;
+
+}
+
+button:active {
+    font-size: 25px;
+}
+
+.login .sign-up {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    color: #fff;
+    margin-right: 15px;
+    margin-left: 15px;
+    
+    
+}
+
+.login .sign-up a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+}
+
+.login .sign-up p {
+    color: #fff; 
+}
+
+.sign-up a:hover {
+    text-decoration: underline; 
+}
