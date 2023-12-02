@@ -9,10 +9,11 @@
 body {
     width: 100vw;
     height: 100vh;
+    overflow-x: hidden;
 }
 
 #tittle {
-    border: solid white;
+    border: solid black;
     width: 100vw; 
     height: 60px;
     background-color: #000000;
@@ -240,4 +241,132 @@ body {
 #final-pic img {
     width: 600px;
     height: 400px;
+}
+
+.footer{
+    height: 500px;
+    background-color: black;
+    display: flex;
+    justify-content: center; 
+    position: relative;
+}
+
+.empresa-2{
+    margin-top: 100px;
+    width: 250px; height: 270px;
+    color: #FFFFFF;
+    margin-left: 140px;
+    
+}
+
+.empresa-2 > h1{
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+}
+
+.empresa-2 > a{
+    position: relative; top: 15px;
+    line-height: 40px;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.produtos{
+    margin-top: 100px;
+    width: 250px; height: 270px;
+    color: #FFFFFF; 
+    margin-left: 40px;
+}
+
+.produtos > h1{
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+}
+
+.produtos > a{
+    position: relative; top: 15px;
+    line-height: 40px;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.cidadania{
+    margin-top: 100px;
+    width: 250px; height: 270px;
+    color: #FFFFFF;
+    margin-left: 40px;
+}
+
+.cidadania > h1{
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+}
+
+.cidadania > a{
+    position: relative; top: 15px;
+    line-height: 40px;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.contato{
+    margin-top: 100px;
+    width: 250px; height: 270px;
+    color: #FFFFFF;
+    margin-left: 40px;
+}
+
+.contato > h1{
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+}
+
+.contato > a{
+    position: relative; top: 15px;
+    line-height: 40px;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.redes{
+    width: 600px; height: 50px;
+    position: absolute;
+    margin-top: 380px;
+    margin-left: 100px;
+    font-size: 17px;
+    word-spacing: 150px;
+    color: white;
+    cursor: pointer;
+}
+
+.barra{
+    position: absolute;
+    width: 100vw; height: 1px;
+    background-color: #EAEDF3;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    margin-top: 450px;
+    
+}
+
+.barra > p{
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 53px;
+    letter-spacing: 3px;
 }

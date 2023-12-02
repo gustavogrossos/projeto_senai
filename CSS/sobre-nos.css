@@ -9,6 +9,7 @@
 body {
     width: 100vw;
     height: 100vh;
+    overflow-x: hidden;
 }
 
 #tittle {
@@ -32,87 +33,97 @@ body {
 #tittle-2 {
     width: 100vw;
     height: 900px;
-    margin-bottom: 250px;
-    display: flex;
+    display: inline-flex;
+    justify-content: space-evenly;
     align-items: center;
-    padding-bottom: 350px;
-    background-image: url(/assets/pexels-andrea-piacquadio-927451.jpg);
-    background-position: center;
-    background-size: cover;
+    margin-bottom: 150px;
+    background-color: black;
 }
 
 #tittle-2 h1 {
     color: white;
-    width: 350px;
+    width: 600px;
     height: 450px;
-    font-size: 60px;
+    font-size: 150px;
     font-weight: 400;
     font-style: italic;
-    margin-left: 60px;
-    padding-left: 80px;
-    padding-top: 70px;
+}
+#first-pic img{
+    width: 850px;
+    height: 680px;
+    border-radius: 20px;
+}
+
+#big-group-1 {
+    width: 100vw;
+    height: 1000px;
+    display: inline-flex;
+    justify-content: space-evenly;
 }
 
 #group-1 {
-    width: 100vw;
-    height: 250px;
-    display: inline-flex;
-    justify-content: space-around;
-    margin-bottom: 360px;
+    width: 600px;
+    height: 700px;
 }
 
 #pic-1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 700px; 
+    width: 600px;
+    margin-bottom: 40px;
 }
 
 #pic-1 img{
     width: 600px;
     height: 400px;
+    border-radius: 5px;
 }
 
 #text-1 {
     width: 500px;
+    padding-left: 5px;
 }
 
 #group-1 h1 {
     padding-bottom: 20px;
     font-size: 35px;
+    font-weight: 400;
 }
 
 #group-1 p {
     font-size: 25px;
+    font-weight: 400;
 }
 
 #group-2 {
-    width: 100vw;
-    height: 250px;
-    display: inline-flex;
-    justify-content: space-around;
-    margin-bottom: 360px;
+    width: 600px;
+    height: 700px;
 }
 
 #pic-2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 700px; 
+    width: 600px;
+    margin-bottom: 40px; 
 }
 
 #pic-2 img{
     width: 600px;
     height: 400px;
+    border-radius: 5px;
 }
 
 #text-2 {
     width: 500px;
+    padding-left: 2px;
 }
 
 #group-2 h1 {
     padding-bottom: 20px;
     font-size: 35px;
+    font-weight: 400;
 }
 
 #group-2 p {
@@ -120,23 +131,22 @@ body {
 }
 
 #group-3 {
-    width: 100vw;
-    height: 250px;
-    display: inline-flex;
-    justify-content: space-around;
-    margin-bottom: 300px;
+    width: 600px;
+    height: 700px;
 }
 
 #pic-3 {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 700px; 
+    width: 600px;
+    margin-bottom: 40px;
 }
 
 #pic-3 img{
     width: 600px;
     height: 400px;
+    border-radius: 5px;
 }
 
 #text-3 {
@@ -146,6 +156,7 @@ body {
 #group-3 h1 {
     padding-bottom: 20px;
     font-size: 35px;
+    font-weight: 400;
 }
 
 #group-3 p {
@@ -177,37 +188,116 @@ body {
     font-weight: 400;
 }
 
-.group-4 {
+#big-group-2 {
     width: 100vw;
-    height: 250px;
+    height: 1000px;
     display: inline-flex;
-    justify-content: space-around;
-    margin-bottom: 360px;
+    justify-content: space-evenly;
 }
 
-.pic-4 {
+#group-4 {
+    width: 600px;
+    height: 700px;
+}
+
+#pic-4 {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 700px; 
+    width: 600px;
+    margin-bottom: 40px;
 }
 
-.pic-4 img{
+#pic-4 img{
     width: 600px;
     height: 400px;
+    border-radius: 5px;
 }
 
-.text-4 {
+#text-4 {
     width: 500px;
+    padding-left: 5px;
 }
 
-.group-4 h1 {
+#group-4 h1 {
     padding-bottom: 20px;
     font-size: 35px;
+    font-weight: 400;
 }
 
-.group-4 p {
+#group-4 p {
     font-size: 25px;
+    font-weight: 400;
+}
+
+#group-5 {
+    width: 600px;
+    height: 700px;
+}
+
+#pic-5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    margin-bottom: 40px; 
+}
+
+#pic-5 img{
+    width: 600px;
+    height: 400px;
+    border-radius: 5px;
+}
+
+#text-5 {
+    width: 500px;
+    padding-left: 5px;
+}
+
+#group-5 h1 {
+    padding-bottom: 20px;
+    font-size: 35px;
+    font-weight: 400;
+}
+
+#group-5 p {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+#group-6 {
+    width: 600px;
+    height: 700px;
+}
+
+#pic-6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    margin-bottom: 40px; 
+}
+
+#pic-6 img{
+    width: 600px;
+    height: 400px;
+    border-radius: 5px;
+}
+
+#text-6 {
+    width: 500px;
+    padding-left: 5px;
+}
+
+#group-6 h1 {
+    padding-bottom: 20px;
+    font-size: 35px;
+    font-weight: 400;
+}
+
+#group-6 p {
+    font-size: 25px;
+    font-weight: 400px;
 }
 
 #final-group {
@@ -241,3 +331,132 @@ body {
     width: 600px;
     height: 400px;
 }
+
+.footer{
+    height: 500px;
+    background-color: black;
+    display: flex;
+    justify-content: center; 
+    position: relative;
+}
+
+.empresa-2{
+    margin-top: 100px;
+    width: 250px; height: 270px;
+    color: #FFFFFF;
+    margin-left: 140px;
+    
+}
+
+.empresa-2 > h1{
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+}
+
+.empresa-2 > a{
+    position: relative; top: 15px;
+    line-height: 40px;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.produtos{
+    margin-top: 100px;
+    width: 250px; height: 270px;
+    color: #FFFFFF; 
+    margin-left: 40px;
+}
+
+.produtos > h1{
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+}
+
+.produtos > a{
+    position: relative; top: 15px;
+    line-height: 40px;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.cidadania{
+    margin-top: 100px;
+    width: 250px; height: 270px;
+    color: #FFFFFF;
+    margin-left: 40px;
+}
+
+.cidadania > h1{
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+}
+
+.cidadania > a{
+    position: relative; top: 15px;
+    line-height: 40px;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.contato{
+    margin-top: 100px;
+    width: 250px; height: 270px;
+    color: #FFFFFF;
+    margin-left: 40px;
+}
+
+.contato > h1{
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+}
+
+.contato > a{
+    position: relative; top: 15px;
+    line-height: 40px;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.redes{
+    width: 600px; height: 50px;
+    position: absolute;
+    margin-top: 380px;
+    margin-left: 100px;
+    font-size: 17px;
+    word-spacing: 150px;
+    color: white;
+    cursor: pointer;
+}
+
+.barra{
+    position: absolute;
+    width: 100vw; height: 1px;
+    background-color: #EAEDF3;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    margin-top: 450px;
+    
+}
+
+.barra > p{
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 53px;
+    letter-spacing: 3px;
+}
+
