@@ -32,26 +32,34 @@ body {
 
 #tittle-2 {
     width: 100vw;
-    height: 900px;
-    margin-bottom: 250px;
-    display: flex;
-    align-items: center;
-    padding-bottom: 350px;
-    background-image: url(/assets/pexels-andrea-piacquadio-927451.jpg);
-    background-position: center;
-    background-size: cover;
+    height: 820px;
+    padding-top: 100px;
 }
 
 #tittle-2 h1 {
     color: white;
-    width: 350px;
-    height: 450px;
-    font-size: 60px;
-    font-weight: 400;
+    width: 1100px;
+    height: 220px;
+    font-size: 80px;
+    font-weight: 500;
     font-style: italic;
     margin-left: 60px;
-    padding-left: 80px;
-    padding-top: 70px;
+    padding-top: 50px;
+    color: black;
+    
+}
+
+#tittle-i {
+    width: 100vw;
+    height: 500px;
+    display: inline-flex;
+    justify-content: space-evenly;
+}
+
+#tittle-i img {
+    width: 780px;
+    height: 450px;
+    border-radius: 5px;
 }
 
 #group-1 {
@@ -60,18 +68,11 @@ body {
     display: inline-flex;
     justify-content: space-around;
     margin-bottom: 360px;
+    margin-top: 15px;
 }
 
-#pic-1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+#sub-text-1 {
     width: 700px; 
-}
-
-#pic-1 img{
-    width: 600px;
-    height: 400px;
 }
 
 #text-1 {
@@ -79,12 +80,33 @@ body {
 }
 
 #group-1 h1 {
-    padding-bottom: 20px;
+    padding-bottom: 50px;
     font-size: 35px;
+    font-weight: 500;
 }
 
 #group-1 p {
-    font-size: 25px;
+    font-size: 30px;
+    width: 750px;
+}
+
+#tittle-3 {
+    width: 100vw;
+    height: 820px;
+    padding-top: 100px;
+}
+
+#tittle-i-2 {
+    width: 100vw;
+    height: 500px;
+    display: inline-flex;
+    justify-content: space-evenly;
+}
+
+#tittle-i-2 img {
+    width: 780px;
+    height: 450px;
+    border-radius: 5px;
 }
 
 #group-2 {
@@ -95,16 +117,8 @@ body {
     margin-bottom: 360px;
 }
 
-#pic-2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+#sub-text-2 {
     width: 700px; 
-}
-
-#pic-2 img{
-    width: 600px;
-    height: 400px;
 }
 
 #text-2 {
@@ -112,45 +126,50 @@ body {
 }
 
 #group-2 h1 {
-    padding-bottom: 20px;
+    padding-bottom: 50px;
     font-size: 35px;
+    font-weight: 500;
 }
 
 #group-2 p {
-    font-size: 25px;
+    font-size: 30px;
+    width: 750px;
+}
+
+#tittle-i-3 {
+    width: 100vw;
+    height: 500px;
+    padding-left: 150px;
+}
+
+#tittle-i-3 img {
+    width: 780px;
+    height: 450px;
+    border-radius: 5px;
 }
 
 #group-3 {
     width: 100vw;
     height: 250px;
-    display: inline-flex;
-    justify-content: space-around;
-    margin-bottom: 300px;
-}
-
-#pic-3 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 700px; 
-}
-
-#pic-3 img{
-    width: 600px;
-    height: 400px;
+    margin-left: 150px;
+    margin-bottom: 100px;
+    margin-top: 15px;
 }
 
 #text-3 {
     width: 500px;
+    margin-left: 35px;
 }
 
 #group-3 h1 {
-    padding-bottom: 20px;
+    padding-bottom: 50px;
     font-size: 35px;
+    font-weight: 500;
 }
 
 #group-3 p {
-    font-size: 25px;
+    font-size: 30px;
+    width: 750px;
 }
 
 #tittle-3 {
@@ -176,6 +195,39 @@ body {
 
 #tittle-3-h1 h1 {
     font-weight: 400;
+}
+
+#tittle-5 {
+    width: 100vw;
+    height: 820px;
+    padding-top: 100px;
+    margin-bottom: 100px;
+}
+
+#tittle-5 h1 {
+    color: white;
+    width: 1100px;
+    height: 220px;
+    font-size: 80px;
+    font-weight: 500;
+    font-style: italic;
+    margin-left: 60px;
+    padding-top: 50px;
+    color: black;
+    
+}
+
+#tittle-i-5 {
+    width: 100vw;
+    height: 500px;
+    display: inline-flex;
+    justify-content: space-evenly;
+}
+
+#tittle-i-5 img {
+    width: 780px;
+    height: 450px;
+    border-radius: 5px;
 }
 
 .group-4 {
@@ -208,7 +260,8 @@ body {
 }
 
 .group-4 p {
-    font-size: 25px;
+    font-size: 30px;
+    width: 650px;
 }
 
 #final-group {
@@ -242,3 +295,133 @@ body {
     width: 600px;
     height: 400px;
 }
+
+
+.footer{
+    height: 500px;
+    background-color: black;
+    display: flex;
+    justify-content: center; 
+    position: relative;
+}
+
+.empresa-2{
+    margin-top: 100px;
+    width: 250px; height: 270px;
+    color: #FFFFFF;
+    margin-left: 140px;
+    
+}
+
+.empresa-2 > h1{
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+}
+
+.empresa-2 > a{
+    position: relative; top: 15px;
+    line-height: 40px;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.produtos{
+    margin-top: 100px;
+    width: 250px; height: 270px;
+    color: #FFFFFF; 
+    margin-left: 40px;
+}
+
+.produtos > h1{
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+}
+
+.produtos > a{
+    position: relative; top: 15px;
+    line-height: 40px;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.cidadania{
+    margin-top: 100px;
+    width: 250px; height: 270px;
+    color: #FFFFFF;
+    margin-left: 40px;
+}
+
+.cidadania > h1{
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+}
+
+.cidadania > a{
+    position: relative; top: 15px;
+    line-height: 40px;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.contato{
+    margin-top: 100px;
+    width: 250px; height: 270px;
+    color: #FFFFFF;
+    margin-left: 40px;
+}
+
+.contato > h1{
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+}
+
+.contato > a{
+    position: relative; top: 15px;
+    line-height: 40px;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.redes{
+    width: 600px; height: 50px;
+    position: absolute;
+    margin-top: 380px;
+    margin-left: 100px;
+    font-size: 17px;
+    word-spacing: 150px;
+    color: white;
+    cursor: pointer;
+}
+
+.barra{
+    position: absolute;
+    width: 100vw; height: 1px;
+    background-color: #EAEDF3;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    margin-top: 450px;
+    
+}
+
+.barra > p{
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 53px;
+    letter-spacing: 3px;
+}
+
