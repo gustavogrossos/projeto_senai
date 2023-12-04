@@ -300,36 +300,46 @@ body {
     font-weight: 400px;
 }
 
-#final-group {
+#vem-conhecer {
+ 
     width: 100vw;
-    height: 290px;
-    font-size: 30px;
-    display: flex;
+    height: 400px;
+    display: inline-flex;
     align-items: center;
     background-color: whitesmoke;
+    
 }
 
-#final-group {
-    width: 100vw;
-    height: 410px;
-    display: inline-flex;
-    justify-content: space-around;
+#texto {
+    width: 400px;
+    margin-left: 80px;
+    margin-right: 800px;
 }
 
-#final-text {
-    width: 500px;
+#texto h1 {
+    font-size: 70px;
+    font-weight: 500;
+    margin-bottom: 40px;
 }
 
-#final-pic {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 700px; 
+#texto a {
+    font-size: 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-bottom: solid 1px grey;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    color: black;
 }
 
-#final-pic img {
-    width: 600px;
-    height: 400px;
+#texto a:hover {
+    font-weight: 400;
+    border-bottom: solid 3px black;
+}
+
+#foto img {
+    width: 350px;
+    height: 450px;
 }
 
 .footer{

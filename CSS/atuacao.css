@@ -13,7 +13,7 @@ body {
 }
 
 #tittle {
-    border: solid white;
+    border: solid black;
     width: 100vw; 
     height: 60px;
     background-color: #000000;
@@ -201,7 +201,7 @@ body {
     width: 100vw;
     height: 820px;
     padding-top: 100px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 #tittle-5 h1 {
@@ -282,6 +282,11 @@ body {
 
 #final-text {
     width: 500px;
+}
+
+#final-text h3 {
+    font-size: 45px;
+    font-weight: 500;
 }
 
 #final-pic {

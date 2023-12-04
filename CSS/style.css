@@ -195,6 +195,15 @@ body{
     cursor: pointer;
 }
 
+.container-button:hover {
+    transition: background 0.5s;
+    background: darkslategray;
+  }
+  .container-button:not(:hover) {
+      transition: background 1s;
+      background: black;
+    }
+
 .main-mid-2{
     width: 100vw; height: 400px;
     background-color: rgb(247, 247, 247);
@@ -330,6 +339,44 @@ body{
     margin-left: 20px;
     margin-top: 30px;
 }
+
+#animation {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+#animation h1 {
+    position: relative;
+    font-size: 5vw;
+    color: white;
+    -webkit-text-stroke: 0.3vw white;
+    text-transform: uppercase;
+}
+
+#animation h1::before {
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    color: black;
+    -webkit-text-stroke: 0vw white;
+    border-right: 5px solid black;
+    overflow: hidden;
+    animation: animate 3s linear infinite;
+}
+
+@keyframes animate {
+    0%,10%,100% {
+        width: 0;
+    }
+    70%,90% {
+        width: 100%;
+    }
+}
+
 
 .footer{
     height: 500px;
